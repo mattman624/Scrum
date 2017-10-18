@@ -151,6 +151,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Badger 1.jpg" />
+    <Content Include="Content\Badger 2.jpg" />
+    <Content Include="Content\Badger 3.jpg" />
+    <Content Include="Content\Badger 4.jpg" />
     <Content Include="Content\badger.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -190,6 +194,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Badger\Diet.cshtml" />
     <Content Include="Views\Gallery\Show.cshtml" />
+    <Content Include="Views\Gallery\Badger1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

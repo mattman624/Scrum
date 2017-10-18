@@ -45,7 +45,7 @@ namespace BadgerZoo.Controllers
         // GET: Gallery/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            return View("Badger1");
         }
 
         // POST: Gallery/Edit/5
