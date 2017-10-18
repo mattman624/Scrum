@@ -10,6 +10,7 @@ namespace BadgerZoo.Controllers
     {
         public ActionResult Index()
         {
+            //return Diet();
             return View();
         }
 
@@ -26,5 +27,10 @@ namespace BadgerZoo.Controllers
 
             return View();
         }
+
+        //public ActionResult Diet()
+        //{
+        //    return View();
+        //}
     }
 }
