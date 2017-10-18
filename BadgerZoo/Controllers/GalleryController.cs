@@ -43,13 +43,30 @@ namespace BadgerZoo.Controllers
         }
 
         // GET: Gallery/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit1(int id)
         {
             return View("Badger1");
         }
 
-        // POST: Gallery/Edit/5
-        [HttpPost]
+	    public ActionResult Edit2(int id)
+	    {
+		    return View("Badger2");
+	    }
+
+	    public ActionResult Edit3(int id)
+	    {
+		    return View("Badger3");
+	    }
+
+	    public ActionResult Edit4(int id)
+	    {
+		    return View("Badger4");
+	    }
+
+
+
+		// POST: Gallery/Edit/5
+		[HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
             try

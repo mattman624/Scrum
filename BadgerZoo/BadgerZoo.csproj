@@ -197,6 +197,9 @@
     <Content Include="Views\Badger\Diet.cshtml" />
     <Content Include="Views\Gallery\Show.cshtml" />
     <Content Include="Views\Gallery\Badger1.cshtml" />
+    <Content Include="Views\Gallery\Badger2.cshtml" />
+    <Content Include="Views\Gallery\Badger3.cshtml" />
+    <Content Include="Views\Gallery\Badger4.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
